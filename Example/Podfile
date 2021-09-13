@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'VRExampleViewTutorial_Example' do
+  pod 'VRExampleViewTutorial', :path => '../'
+
+  target 'VRExampleViewTutorial_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
