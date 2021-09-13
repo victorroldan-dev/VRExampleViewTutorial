@@ -1,0 +1,22 @@
+{
+  "name": "VRExampleViewTutorial",
+  "version": "0.1.0",
+  "summary": "A short description of VRExampleViewTutorial.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/Victor/VRExampleViewTutorial",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Victor": "victorroldan.dev@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/Victor/VRExampleViewTutorial.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "VRExampleViewTutorial/Classes/**/*"
+}

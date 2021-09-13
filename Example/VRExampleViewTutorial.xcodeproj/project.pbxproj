@@ -28,10 +28,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		0DFBA001799C3DE5C17E3CA5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		0DFBA001799C3DE5C17E3CA5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		163BEF73D053C7028D92DC48 /* Pods-VRExampleViewTutorial_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VRExampleViewTutorial_Tests.release.xcconfig"; path = "Target Support Files/Pods-VRExampleViewTutorial_Tests/Pods-VRExampleViewTutorial_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		1A931BB23EFA7E6FA4F23E13 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		26A59D55DA504696DE5C335A /* VRExampleViewTutorial.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = VRExampleViewTutorial.podspec; path = ../VRExampleViewTutorial.podspec; sourceTree = "<group>"; };
+		1A931BB23EFA7E6FA4F23E13 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		26A59D55DA504696DE5C335A /* VRExampleViewTutorial.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = VRExampleViewTutorial.podspec; path = ../VRExampleViewTutorial.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		2906EDAE57979FD5ED08FCA5 /* Pods_VRExampleViewTutorial_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VRExampleViewTutorial_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2C7412866383B57154ED8B1C /* Pods_VRExampleViewTutorial_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_VRExampleViewTutorial_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACD01AFB9204008FA782 /* VRExampleViewTutorial_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VRExampleViewTutorial_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -147,7 +147,6 @@
 				9F080BE8531777E11AE3DE05 /* Pods-VRExampleViewTutorial_Tests.debug.xcconfig */,
 				163BEF73D053C7028D92DC48 /* Pods-VRExampleViewTutorial_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -227,6 +226,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

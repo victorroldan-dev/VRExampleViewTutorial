@@ -1,0 +1,770 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0316FE0403C0F15DFC84C49686716A7B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		4C12B7EF8ED148E5999432B138C5802B /* Pods-VRExampleViewTutorial_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C7606C7525D5571F54B3B740A5998F6 /* Pods-VRExampleViewTutorial_Tests-dummy.m */; };
+		56A3A04F2B163C3F1C5C75D59EFBA445 /* Pods-VRExampleViewTutorial_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3368A875B542EC76A5C7042877D48D24 /* Pods-VRExampleViewTutorial_Example-dummy.m */; };
+		6B9EA6EB1F04BD47A77B96D2A0675417 /* Pods-VRExampleViewTutorial_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 32E5D7F8B10080DB987FA09C7F02D240 /* Pods-VRExampleViewTutorial_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BFAA2952675227A4BA46A4588D3E31FD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+		C9F61F968FBDE0CC395992E52428DC47 /* VRExampleViewTutorial-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A1847CF834A639B3D53F1640B0BC6F1B /* VRExampleViewTutorial-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CBD24E3F01BF843C85FE3F319F582F9D /* Pods-VRExampleViewTutorial_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0A7B29FF301AB4FEE16C924A751B99B2 /* Pods-VRExampleViewTutorial_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D3E17EADC84549756D5494B5FAE57D8E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7AB0D412E8C50AC2A9397028BB9A5E62 /* ReplaceMe.swift */; };
+		DA4C202E83ACFACD2B093280A79EE525 /* VRExampleViewTutorial-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 15075F04C62EF371F0ED72756309BC3D /* VRExampleViewTutorial-dummy.m */; };
+		E1077F9703CE3FE121BA13AA5DCDB537 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A9ABF332C0A709B9A8345A382717EFF8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 372F764DF0866C0B18581017F57C3534;
+			remoteInfo = "Pods-VRExampleViewTutorial_Example";
+		};
+		D837EEAEDCE78409D67B7169F545943E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8C13C2413DCC0C7F6B01FBAAAE2AFC77;
+			remoteInfo = VRExampleViewTutorial;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		056D6DBCCA42009389470C7AF8CC1E41 /* VRExampleViewTutorial.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = VRExampleViewTutorial.modulemap; sourceTree = "<group>"; };
+		0A7B29FF301AB4FEE16C924A751B99B2 /* Pods-VRExampleViewTutorial_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VRExampleViewTutorial_Example-umbrella.h"; sourceTree = "<group>"; };
+		15075F04C62EF371F0ED72756309BC3D /* VRExampleViewTutorial-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VRExampleViewTutorial-dummy.m"; sourceTree = "<group>"; };
+		2C7606C7525D5571F54B3B740A5998F6 /* Pods-VRExampleViewTutorial_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VRExampleViewTutorial_Tests-dummy.m"; sourceTree = "<group>"; };
+		3082B134DCAC37C000CB78B95CDE4C56 /* Pods-VRExampleViewTutorial_Example-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VRExampleViewTutorial_Example-Info.plist"; sourceTree = "<group>"; };
+		32B846BA6F20F4B9C2065694626DB05A /* VRExampleViewTutorial-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VRExampleViewTutorial-prefix.pch"; sourceTree = "<group>"; };
+		32E5D7F8B10080DB987FA09C7F02D240 /* Pods-VRExampleViewTutorial_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-VRExampleViewTutorial_Tests-umbrella.h"; sourceTree = "<group>"; };
+		3368A875B542EC76A5C7042877D48D24 /* Pods-VRExampleViewTutorial_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VRExampleViewTutorial_Example-dummy.m"; sourceTree = "<group>"; };
+		36846138ABF1D2F345C99C78961FE67C /* VRExampleViewTutorial.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = VRExampleViewTutorial.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		36EBCCD53D859BFC61FD719398F167E0 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		4291A7B096BCB1BA04800D9117159074 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		4C2125515D576F0426DF9A1946DB38A3 /* Pods-VRExampleViewTutorial_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VRExampleViewTutorial_Example-frameworks.sh"; sourceTree = "<group>"; };
+		60E3EAE69F2B919E18D4B2BA11B05F3D /* VRExampleViewTutorial.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VRExampleViewTutorial.release.xcconfig; sourceTree = "<group>"; };
+		61C0DB146BA5F925E2C8FFDF60E89FFF /* Pods-VRExampleViewTutorial_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VRExampleViewTutorial_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS14.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		79470A9FA0FBB3D17B4FF61B9ED4A74B /* Pods-VRExampleViewTutorial_Tests */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VRExampleViewTutorial_Tests"; path = Pods_VRExampleViewTutorial_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AB0D412E8C50AC2A9397028BB9A5E62 /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ReplaceMe.swift; path = VRExampleViewTutorial/Classes/ReplaceMe.swift; sourceTree = "<group>"; };
+		83022E83E1ECCF1A2CC1F3EDBE8BF61A /* Pods-VRExampleViewTutorial_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VRExampleViewTutorial_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		91FCD60B57C0AC64D94D84FD13ADD0B4 /* VRExampleViewTutorial-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "VRExampleViewTutorial-Info.plist"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9E2574FD6571B67539884D8C34732A4E /* VRExampleViewTutorial */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = VRExampleViewTutorial; path = VRExampleViewTutorial.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9E35CC90E38ADF425B4C83A4CAB34071 /* Pods-VRExampleViewTutorial_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VRExampleViewTutorial_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		A1847CF834A639B3D53F1640B0BC6F1B /* VRExampleViewTutorial-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VRExampleViewTutorial-umbrella.h"; sourceTree = "<group>"; };
+		A5F6F89BC1237A1B94029EFF4D1B1F70 /* Pods-VRExampleViewTutorial_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VRExampleViewTutorial_Example.modulemap"; sourceTree = "<group>"; };
+		A756C14C35714D3E1075E677ED90D7E1 /* Pods-VRExampleViewTutorial_Tests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VRExampleViewTutorial_Tests-Info.plist"; sourceTree = "<group>"; };
+		B4C2F86E69EE300D6A9E2D178092EE68 /* VRExampleViewTutorial.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VRExampleViewTutorial.debug.xcconfig; sourceTree = "<group>"; };
+		BC8A8AAD854EBB09D8EC5E0E694CA187 /* Pods-VRExampleViewTutorial_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VRExampleViewTutorial_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		C4520E8F5F53A94C46C290ECA122EB9C /* Pods-VRExampleViewTutorial_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VRExampleViewTutorial_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		D86F7F06B849D4A7172AA6C52AE890B6 /* Pods-VRExampleViewTutorial_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VRExampleViewTutorial_Example.release.xcconfig"; sourceTree = "<group>"; };
+		D93E2D7BA2C21EFAA2DF881AD036D7C2 /* Pods-VRExampleViewTutorial_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VRExampleViewTutorial_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		E643960DB3219ED8C5E65DF3F6E625FB /* Pods-VRExampleViewTutorial_Example */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Pods-VRExampleViewTutorial_Example"; path = Pods_VRExampleViewTutorial_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F1B18A49B26A69E0076CA052A2EA2DF9 /* Pods-VRExampleViewTutorial_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VRExampleViewTutorial_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		F4DE0061B3167ED4D6A444F89A6D588C /* Pods-VRExampleViewTutorial_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-VRExampleViewTutorial_Tests.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		444AFF8616880AD56964D882A720E3B9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0316FE0403C0F15DFC84C49686716A7B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9BB2ADA7905060F89603FA64C74B181B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1077F9703CE3FE121BA13AA5DCDB537 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F420153561964F08D4F9DE6AD8CFC95E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFAA2952675227A4BA46A4588D3E31FD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08B30C922AB7874C31B73D2D45C1B5E0 /* VRExampleViewTutorial */ = {
+			isa = PBXGroup;
+			children = (
+				7AB0D412E8C50AC2A9397028BB9A5E62 /* ReplaceMe.swift */,
+				1D1694558A23BBA163F8B9DF35C68DCF /* Pod */,
+				D980449F36DFAB41F69FB33633DD95DC /* Support Files */,
+			);
+			name = VRExampleViewTutorial;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		1D1694558A23BBA163F8B9DF35C68DCF /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				36EBCCD53D859BFC61FD719398F167E0 /* LICENSE */,
+				4291A7B096BCB1BA04800D9117159074 /* README.md */,
+				36846138ABF1D2F345C99C78961FE67C /* VRExampleViewTutorial.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		454198F19B5F85CA6934F738EA067FE8 /* Pods-VRExampleViewTutorial_Example */ = {
+			isa = PBXGroup;
+			children = (
+				A5F6F89BC1237A1B94029EFF4D1B1F70 /* Pods-VRExampleViewTutorial_Example.modulemap */,
+				83022E83E1ECCF1A2CC1F3EDBE8BF61A /* Pods-VRExampleViewTutorial_Example-acknowledgements.markdown */,
+				D93E2D7BA2C21EFAA2DF881AD036D7C2 /* Pods-VRExampleViewTutorial_Example-acknowledgements.plist */,
+				3368A875B542EC76A5C7042877D48D24 /* Pods-VRExampleViewTutorial_Example-dummy.m */,
+				4C2125515D576F0426DF9A1946DB38A3 /* Pods-VRExampleViewTutorial_Example-frameworks.sh */,
+				3082B134DCAC37C000CB78B95CDE4C56 /* Pods-VRExampleViewTutorial_Example-Info.plist */,
+				0A7B29FF301AB4FEE16C924A751B99B2 /* Pods-VRExampleViewTutorial_Example-umbrella.h */,
+				BC8A8AAD854EBB09D8EC5E0E694CA187 /* Pods-VRExampleViewTutorial_Example.debug.xcconfig */,
+				D86F7F06B849D4A7172AA6C52AE890B6 /* Pods-VRExampleViewTutorial_Example.release.xcconfig */,
+			);
+			name = "Pods-VRExampleViewTutorial_Example";
+			path = "Target Support Files/Pods-VRExampleViewTutorial_Example";
+			sourceTree = "<group>";
+		};
+		578452D2E740E91742655AC8F1636D1F /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				73010CC983E3809BECEE5348DA1BB8C6 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		93388796E790ECEF8B6F6AE5E3C41EF0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E643960DB3219ED8C5E65DF3F6E625FB /* Pods-VRExampleViewTutorial_Example */,
+				79470A9FA0FBB3D17B4FF61B9ED4A74B /* Pods-VRExampleViewTutorial_Tests */,
+				9E2574FD6571B67539884D8C34732A4E /* VRExampleViewTutorial */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		940CFBCBF6138678F41F05701DD6CE7D /* Pods-VRExampleViewTutorial_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				F4DE0061B3167ED4D6A444F89A6D588C /* Pods-VRExampleViewTutorial_Tests.modulemap */,
+				F1B18A49B26A69E0076CA052A2EA2DF9 /* Pods-VRExampleViewTutorial_Tests-acknowledgements.markdown */,
+				61C0DB146BA5F925E2C8FFDF60E89FFF /* Pods-VRExampleViewTutorial_Tests-acknowledgements.plist */,
+				2C7606C7525D5571F54B3B740A5998F6 /* Pods-VRExampleViewTutorial_Tests-dummy.m */,
+				A756C14C35714D3E1075E677ED90D7E1 /* Pods-VRExampleViewTutorial_Tests-Info.plist */,
+				32E5D7F8B10080DB987FA09C7F02D240 /* Pods-VRExampleViewTutorial_Tests-umbrella.h */,
+				C4520E8F5F53A94C46C290ECA122EB9C /* Pods-VRExampleViewTutorial_Tests.debug.xcconfig */,
+				9E35CC90E38ADF425B4C83A4CAB34071 /* Pods-VRExampleViewTutorial_Tests.release.xcconfig */,
+			);
+			name = "Pods-VRExampleViewTutorial_Tests";
+			path = "Target Support Files/Pods-VRExampleViewTutorial_Tests";
+			sourceTree = "<group>";
+		};
+		9C150DF86C99C1CD605116643D52EC74 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				08B30C922AB7874C31B73D2D45C1B5E0 /* VRExampleViewTutorial */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				9C150DF86C99C1CD605116643D52EC74 /* Development Pods */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				93388796E790ECEF8B6F6AE5E3C41EF0 /* Products */,
+				FB6A049719020ECC7BBECC72E68E1803 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				578452D2E740E91742655AC8F1636D1F /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D980449F36DFAB41F69FB33633DD95DC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				056D6DBCCA42009389470C7AF8CC1E41 /* VRExampleViewTutorial.modulemap */,
+				15075F04C62EF371F0ED72756309BC3D /* VRExampleViewTutorial-dummy.m */,
+				91FCD60B57C0AC64D94D84FD13ADD0B4 /* VRExampleViewTutorial-Info.plist */,
+				32B846BA6F20F4B9C2065694626DB05A /* VRExampleViewTutorial-prefix.pch */,
+				A1847CF834A639B3D53F1640B0BC6F1B /* VRExampleViewTutorial-umbrella.h */,
+				B4C2F86E69EE300D6A9E2D178092EE68 /* VRExampleViewTutorial.debug.xcconfig */,
+				60E3EAE69F2B919E18D4B2BA11B05F3D /* VRExampleViewTutorial.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/VRExampleViewTutorial";
+			sourceTree = "<group>";
+		};
+		FB6A049719020ECC7BBECC72E68E1803 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				454198F19B5F85CA6934F738EA067FE8 /* Pods-VRExampleViewTutorial_Example */,
+				940CFBCBF6138678F41F05701DD6CE7D /* Pods-VRExampleViewTutorial_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		2942951F280F15C02861924F400BFF60 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CBD24E3F01BF843C85FE3F319F582F9D /* Pods-VRExampleViewTutorial_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CC7F728DE05AB877CFF28B290BDE978F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6B9EA6EB1F04BD47A77B96D2A0675417 /* Pods-VRExampleViewTutorial_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F240FC95ADA8F0878470676C3A848E96 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C9F61F968FBDE0CC395992E52428DC47 /* VRExampleViewTutorial-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		372F764DF0866C0B18581017F57C3534 /* Pods-VRExampleViewTutorial_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 55908E08B8D1640BDD4D43F4B310E477 /* Build configuration list for PBXNativeTarget "Pods-VRExampleViewTutorial_Example" */;
+			buildPhases = (
+				2942951F280F15C02861924F400BFF60 /* Headers */,
+				DEAF5FFB29CD8CB1E7758211261AC2A0 /* Sources */,
+				F420153561964F08D4F9DE6AD8CFC95E /* Frameworks */,
+				92846D9B267B09CD901466279604F712 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B010FF9E5ECCE43ACEB5A76E5A261AA /* PBXTargetDependency */,
+			);
+			name = "Pods-VRExampleViewTutorial_Example";
+			productName = Pods_VRExampleViewTutorial_Example;
+			productReference = E643960DB3219ED8C5E65DF3F6E625FB /* Pods-VRExampleViewTutorial_Example */;
+			productType = "com.apple.product-type.framework";
+		};
+		8C13C2413DCC0C7F6B01FBAAAE2AFC77 /* VRExampleViewTutorial */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 76EAED218B539DD9DB619D87D9229042 /* Build configuration list for PBXNativeTarget "VRExampleViewTutorial" */;
+			buildPhases = (
+				F240FC95ADA8F0878470676C3A848E96 /* Headers */,
+				F4143D636334C9394CAE9CAB9F3E71A8 /* Sources */,
+				444AFF8616880AD56964D882A720E3B9 /* Frameworks */,
+				48F2F2DA1DBE9D6847695517BD52ED46 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VRExampleViewTutorial;
+			productName = VRExampleViewTutorial;
+			productReference = 9E2574FD6571B67539884D8C34732A4E /* VRExampleViewTutorial */;
+			productType = "com.apple.product-type.framework";
+		};
+		E0AB30E0F5CB72E850589241F360DC8B /* Pods-VRExampleViewTutorial_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E877F5022ACF5D293CCEAFE9992F0FBE /* Build configuration list for PBXNativeTarget "Pods-VRExampleViewTutorial_Tests" */;
+			buildPhases = (
+				CC7F728DE05AB877CFF28B290BDE978F /* Headers */,
+				9F676F004547E63A4DA4185E80A30C4A /* Sources */,
+				9BB2ADA7905060F89603FA64C74B181B /* Frameworks */,
+				3BC408F0D2D581C1C9C98EC0AA138507 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B8A6553D1AC83567409EA471848FDF14 /* PBXTargetDependency */,
+			);
+			name = "Pods-VRExampleViewTutorial_Tests";
+			productName = Pods_VRExampleViewTutorial_Tests;
+			productReference = 79470A9FA0FBB3D17B4FF61B9ED4A74B /* Pods-VRExampleViewTutorial_Tests */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1240;
+				LastUpgradeCheck = 1240;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				Base,
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 93388796E790ECEF8B6F6AE5E3C41EF0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				372F764DF0866C0B18581017F57C3534 /* Pods-VRExampleViewTutorial_Example */,
+				E0AB30E0F5CB72E850589241F360DC8B /* Pods-VRExampleViewTutorial_Tests */,
+				8C13C2413DCC0C7F6B01FBAAAE2AFC77 /* VRExampleViewTutorial */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3BC408F0D2D581C1C9C98EC0AA138507 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		48F2F2DA1DBE9D6847695517BD52ED46 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		92846D9B267B09CD901466279604F712 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9F676F004547E63A4DA4185E80A30C4A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C12B7EF8ED148E5999432B138C5802B /* Pods-VRExampleViewTutorial_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DEAF5FFB29CD8CB1E7758211261AC2A0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56A3A04F2B163C3F1C5C75D59EFBA445 /* Pods-VRExampleViewTutorial_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F4143D636334C9394CAE9CAB9F3E71A8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D3E17EADC84549756D5494B5FAE57D8E /* ReplaceMe.swift in Sources */,
+				DA4C202E83ACFACD2B093280A79EE525 /* VRExampleViewTutorial-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B010FF9E5ECCE43ACEB5A76E5A261AA /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VRExampleViewTutorial;
+			target = 8C13C2413DCC0C7F6B01FBAAAE2AFC77 /* VRExampleViewTutorial */;
+			targetProxy = D837EEAEDCE78409D67B7169F545943E /* PBXContainerItemProxy */;
+		};
+		B8A6553D1AC83567409EA471848FDF14 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-VRExampleViewTutorial_Example";
+			target = 372F764DF0866C0B18581017F57C3534 /* Pods-VRExampleViewTutorial_Example */;
+			targetProxy = A9ABF332C0A709B9A8345A382717EFF8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		116A7A846CC84A466AB964670478DFB7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C4520E8F5F53A94C46C290ECA122EB9C /* Pods-VRExampleViewTutorial_Tests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VRExampleViewTutorial_Tests/Pods-VRExampleViewTutorial_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VRExampleViewTutorial_Tests/Pods-VRExampleViewTutorial_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		719EC821A48D150F1AE6452FC89FDB3C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D86F7F06B849D4A7172AA6C52AE890B6 /* Pods-VRExampleViewTutorial_Example.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VRExampleViewTutorial_Example/Pods-VRExampleViewTutorial_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VRExampleViewTutorial_Example/Pods-VRExampleViewTutorial_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		888E3150BD7699817AD79FA126C33A83 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60E3EAE69F2B919E18D4B2BA11B05F3D /* VRExampleViewTutorial.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VRExampleViewTutorial/VRExampleViewTutorial-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VRExampleViewTutorial/VRExampleViewTutorial-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VRExampleViewTutorial/VRExampleViewTutorial.modulemap";
+				PRODUCT_MODULE_NAME = VRExampleViewTutorial;
+				PRODUCT_NAME = VRExampleViewTutorial;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9AE438DBFA310CE70AD0AC462DE3D5D7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B4C2F86E69EE300D6A9E2D178092EE68 /* VRExampleViewTutorial.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/VRExampleViewTutorial/VRExampleViewTutorial-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/VRExampleViewTutorial/VRExampleViewTutorial-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/VRExampleViewTutorial/VRExampleViewTutorial.modulemap";
+				PRODUCT_MODULE_NAME = VRExampleViewTutorial;
+				PRODUCT_NAME = VRExampleViewTutorial;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		9DBF35EF01CE6E8303B9D1101BAEB891 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9E35CC90E38ADF425B4C83A4CAB34071 /* Pods-VRExampleViewTutorial_Tests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VRExampleViewTutorial_Tests/Pods-VRExampleViewTutorial_Tests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VRExampleViewTutorial_Tests/Pods-VRExampleViewTutorial_Tests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		CD49030BA2B472F4F2EF183BFFA079F9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC8A8AAD854EBB09D8EC5E0E694CA187 /* Pods-VRExampleViewTutorial_Example.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-VRExampleViewTutorial_Example/Pods-VRExampleViewTutorial_Example-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-VRExampleViewTutorial_Example/Pods-VRExampleViewTutorial_Example.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				25AD9454612BF454A1E3DC4CD4FA8C6D /* Debug */,
+				CA547D2C7E9A8A153DC2B27FBE00B112 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		55908E08B8D1640BDD4D43F4B310E477 /* Build configuration list for PBXNativeTarget "Pods-VRExampleViewTutorial_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CD49030BA2B472F4F2EF183BFFA079F9 /* Debug */,
+				719EC821A48D150F1AE6452FC89FDB3C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		76EAED218B539DD9DB619D87D9229042 /* Build configuration list for PBXNativeTarget "VRExampleViewTutorial" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9AE438DBFA310CE70AD0AC462DE3D5D7 /* Debug */,
+				888E3150BD7699817AD79FA126C33A83 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E877F5022ACF5D293CCEAFE9992F0FBE /* Build configuration list for PBXNativeTarget "Pods-VRExampleViewTutorial_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				116A7A846CC84A466AB964670478DFB7 /* Debug */,
+				9DBF35EF01CE6E8303B9D1101BAEB891 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module VRExampleViewTutorial {
+  umbrella header "VRExampleViewTutorial-umbrella.h"
+
+  export *
+  module * { export * }
+}
