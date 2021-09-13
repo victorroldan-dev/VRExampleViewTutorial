@@ -7,12 +7,16 @@
 //
 
 import UIKit
+import VRExampleViewTutorial
 
 class ViewController: UIViewController {
-
+    
+    @IBOutlet weak var exampleView: VRExampleViewTutorial!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        exampleView.setupView(cornerRadius: 30, bgColor: UIColor.red)
     }
 
     override func didReceiveMemoryWarning() {

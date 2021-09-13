@@ -1,5 +1,5 @@
 PODS:
-  - VRExampleViewTutorial (0.1.0)
+  - VRExampleViewTutorial (1.0.0)
 
 DEPENDENCIES:
   - VRExampleViewTutorial (from `../`)
@@ -9,8 +9,8 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  VRExampleViewTutorial: 9be92d6e5a5a0abd633360289f461e175563b5ce
+  VRExampleViewTutorial: c04c7f461a1411486a089d8bdfd7c3f7cea7c502
 
-PODFILE CHECKSUM: c0666a852e6ab8d62829468b1ad6cec9171c53eb
+PODFILE CHECKSUM: c289bdf6b26f675ac7012e51e85f888413d565b9
 
 COCOAPODS: 1.11.0
