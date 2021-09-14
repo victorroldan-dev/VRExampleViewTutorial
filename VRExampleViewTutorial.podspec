@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'VRExampleViewTutorial'
-  s.version          = '1.0.0'
+  s.version          = '2.0.0'
   s.summary          = 'Esta es una aplicación para mostrar un view con bordes redondeados.'
   s.swift_versions   = '5.0'
   
@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'Victor' => 'victorroldan.dev@gmail.com' }
-  s.source           = { :git => 'git@github.com:victorroldan-dev/VRExampleViewTutorial.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/victorroldan-dev/VRExampleViewTutorial.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '11.0'
